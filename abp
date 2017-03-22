@@ -1,0 +1,21 @@
+修改数据库 自动代码生成
+abp code first
+Add-Migration
+update-Database
+
+
+auto-mapper-profile  dto  entity
+
+api:
+route-prefix
+route
+rest风格
+
+abpapiauthorize 
+匿名
+user
+admin   
+
+
+localhost:8080/help 
+api文档及测试环境
