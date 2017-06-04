@@ -1,0 +1,8 @@
+局部变量可见性问题
+
+Long insertId
+Long[] insertIds
+
+java的方法调用为值传递，当传递insertId进入某个方法，在方法内对insertId赋值，方法结束后，insertId不改变；
+当传递insertIds进入某个方法时，由于insertIds是指向某个内存的指针，在方法内对该内存操作，内存数据变化，
+方法结束后，insertIds指针依然不改变，但该指针指向的内存是变化的

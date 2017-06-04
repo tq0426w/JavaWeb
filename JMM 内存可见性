@@ -1,0 +1,4 @@
+JMM 内存可见性
+
+synchronized和volatile的区别：
+synchronized既能保证可见性，又能保证原子性，而volatile只能保证可见性，无法保证原子性

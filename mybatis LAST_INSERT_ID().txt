@@ -1,0 +1,3 @@
+mybatis的LAST_INSERT_ID()是线程安全的吗？
+是线程安全的。
+LAST_INSERT_ID是基于Connection的，只要每个线程都使用独立的Connection对象，LAST_INSERT_ID函数将返回该Connection对AUTO_INCREMENT列最新的insert or update操作生成的第一个record的ID。LAST_INSERT_ID是基于单个connection的, 不可能被其它的客户端连接改变。
